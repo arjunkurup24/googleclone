@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+  }
+  a {
+    padding: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  nav {
+    padding: 6px;
+    display: flex;
+    justify-content: right;
+  }
+  .header-nav {
+    display: flex;
+    text-align: center;
+    padding: 0px 4px 0px 32px;
+  }
+  .header-nav img:hover {
+    box-shadow: 0 0 8px 0 rgb(230, 227, 227);
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .googleImg {
+    display: flex;
+    justify-content: center;
+  }
+  .googleImg img image {
+    height: 200px;
+    width: 500px;
+  }
+  .googleImg .share img {
+    height: 20px;
+    padding-top: 157px;
+  }
+  .search {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    border: 2px solid gainsboro;
+    border-radius: 40px;
+    margin: 20px 430px;
+
+  }
+  .search:hover {
+    box-shadow: 0 0 4px 0;
+    cursor: pointer;
+  }
+  input {
+    height: 38px;
+    width: 600px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+  }
+  .btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 4px;
+  }
+  button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 0 gainsboro;
+  }
+  .lang {
+    display: flex;
+    justify-content: center;
+  }
+  .lang ul {
+    display: flex;
+    padding-left: 60px;
+  }
+  .lang ul li {
+    list-style: none;
+    padding-top: 20px;
+  }
+  .lang ul li a {
+    padding: 7px;
+    text-decoration: none;
+    color: #1a0dab;
+  }
+  .lang ul li a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  
+  }
+  .container ul {
+      display: flex;
+    list-style: none;
+    padding-left: 10px;
+  }
+  .container{
+      justify-content: space-between;
+      display: flex;
+      padding: 0px 15px;
+      border: solid 0.2px #70757A;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+  .india{
+      color: #70757A;
+      padding: 0px 30px;
+  }
+  .container ul li a{
+      color: #70757A;
+  }
